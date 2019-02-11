@@ -138,7 +138,7 @@
 */	
 	function _error($errorKey, $detail = '',$exit=false) {
 		
-		if ($GLOBALS['Debug']==true) {	//如果Debu为真则显示详细，否则直接显示“访问出错”跳回或到主页，	
+//		if ($GLOBALS['Debug']==true) {	//如果Debu为真则显示详细，否则直接显示“访问出错”跳回或到主页，
 		
 			$errorArray = require (FRAMK . '_Error.php');		 
 			foreach ( $errorArray  as $key => $value ) {
@@ -149,14 +149,14 @@
 				}
 			}
 			
-		}else{
-			echo 
-			'<div style="border:solid 1px #ccc;padding:5px;background-color:#eee;color:brown;font-size:12px;">
-			<meta http-equiv="Refresh" content=3;URL='.ACT.'>
-			!访问出错
-			</div>';//可以自己设定
-			exit();	
-		}			
+//		}else{
+//			echo
+//			'<div style="border:solid 1px #ccc;padding:5px;background-color:#eee;color:brown;font-size:12px;">
+//			<meta http-equiv="Refresh" content=3;URL='.ACT.'>
+//			!访问出错
+//			</div>';//可以自己设定
+//			exit();
+//		}
 	}
 	
 	function msubstr($str, $start, $len) {
