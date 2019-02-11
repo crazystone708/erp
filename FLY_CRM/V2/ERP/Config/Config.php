@@ -21,7 +21,7 @@
 		'Persistent'=>false,
 		'DBtype'    => 'Mysql',
 		'DBcharSet' => 'utf8',
-		'DBhost'    => 'localhost',
+		'DBhost'    => '39.96.55.38',
 		'DBport'    => '3306',
 		'DBuser'    => 'root',
 		'DBpsw'     => 'Dengxiao@1219',
