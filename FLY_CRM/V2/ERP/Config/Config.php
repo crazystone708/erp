@@ -24,8 +24,8 @@
 		'DBhost'    => 'localhost',
 		'DBport'    => '3306',
 		'DBuser'    => 'root',
-		'DBpsw'     => 'root',
-		'DBname'    => '07fly_erp'
+		'DBpsw'     => 'Dengxiao@1219',
+		'DBname'    => 'FLYCRM'
 	),
 	'setSmarty'=>array(
 		'template_dir'    => VIEW.'template',
