@@ -155,10 +155,10 @@ class Goods extends Action{
 			'keywords'=>$this->_REQUEST("keywords"),
 			'description'=>$this->_REQUEST("description"),
 			'content'=>$this->_REQUEST("content"),
-			'market_price'=>$this->_REQUEST("market_price"),
-			'sale_price'=>$this->_REQUEST("sale_price"),
-			'cost_price'=>$this->_REQUEST("cost_price"),
-			'sort'=>$this->_REQUEST("sort"),
+			'market_price'=>$this->_REQUEST("market_price") ? :'0',
+			'sale_price'=>$this->_REQUEST("sale_price")? :'0',
+			'cost_price'=>$this->_REQUEST("cost_price")? :'0',
+			'sort'=>$this->_REQUEST("sort")? :'0',
 			'defaultpic'=>!empty($imglistname)?$imglistname[0]:"",
 			'state'=>$this->_REQUEST("state")
 		);
